@@ -89,8 +89,8 @@ export default function EcosystemShowcaseSection({ onOpenDetailModal, onOpenSche
 
               <div>
                 <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">Platform 02</span>
-                <h3 className="text-2xl font-bold text-[#0D2C54] mt-1">Aplikasi Customer</h3>
-                <p className="text-xs font-semibold text-blue-600 mt-0.5">Marketplace Sewa Berbasis Lokasi</p>
+                <h3 className="text-2xl font-bold text-[#0D2C54] mt-1">Marketplace</h3>
+                <p className="text-xs font-semibold text-blue-600 mt-0.5">Sewa Berbasis Lokasi & Katalog Terbuka</p>
                 <p className="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
                   Membantu pengguna menemukan apa pun kebutuhan rentalnya—mulai dari mobil, kamera, drone, genset, hingga kostum event—dengan mudah, aman, dan dekat.
                 </p>

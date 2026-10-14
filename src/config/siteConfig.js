@@ -8,21 +8,20 @@ export const siteConfig = {
     legalName: "PT Garis Daya Digital",
     version: "1.0 | Oktober 2026",
     role: "Perusahaan Pengembang Produk Digital",
-    address: "Jakarta & Layanan Seluruh Indonesia",
-    email: "halo@temusewa.id",
-    phone: "+62 812-3456-7890",
-    whatsappNumber: "6281234567890", // Ganti dengan nomor WhatsApp resmi
+    address: "Makassar, Rappocini, Jl Monumen Emmisaelan No 60C",
+    email: "temusewaid@gmail.com",
+    phone: "+62 857-7722-3347",
+    whatsappNumber: "6285777223347",
     description: "PT Garis Daya Digital adalah perusahaan pengembang teknologi yang berfokus membangun produk digital terintegrasi untuk mentransformasi operasional dan ekosistem bisnis modern di Indonesia."
   },
   socialLinks: {
     instagram: "https://instagram.com/temusewa.id",
     linkedin: "https://linkedin.com/company/garis-daya-digital",
-    whatsapp: "https://wa.me/6281234567890"
+    whatsapp: "https://wa.me/6285777223347"
   },
   whatsappTemplates: {
     mitra: "Halo Tim TemuSewa.ID, saya pemilik usaha rental dan tertarik untuk bergabung menjadi Mitra Rental. Mohon informasi terkait layanan pendampingan dan implementasi aplikasi.",
-    investor: "Halo PT Garis Daya Digital, saya tertarik mengetahui lebih lanjut mengenai visi, ekosistem, dan peluang investasi di TemuSewa.ID.",
-    customer: "Halo TemuSewa.ID, saya ingin bertanya seputar cara mencari dan menyewa kebutuhan melalui platform TemuSewa.",
+    customer: "Halo TemuSewa.ID, saya ingin bertanya seputar cara mencari dan menyewa kebutuhan melalui platform Marketplace TemuSewa.",
     demo: "Halo Tim TemuSewa, saya ingin mengajukan jadwal demo aplikasi dan konsultasi digitalisasi bisnis rental saya."
   },
   stats: [
@@ -37,7 +36,6 @@ export const siteConfig = {
     { label: "Audiens", href: "#audiens" },
     { label: "Kategori", href: "#kategori" },
     { label: "Pendampingan", href: "#pendampingan" },
-    { label: "Roadmap", href: "#roadmap" },
     { label: "Tentang", href: "#perusahaan" }
   ],
   mobileNavItems: [
@@ -47,7 +45,6 @@ export const siteConfig = {
     { label: "Pilar Audiens", href: "#audiens" },
     { label: "6 Kategori Rental", href: "#kategori" },
     { label: "Layanan Pendampingan", href: "#pendampingan" },
-    { label: "Roadmap Rilis", href: "#roadmap" },
     { label: "Tentang PT Garis Daya Digital", href: "#perusahaan" },
     { label: "Kontak & Konsultasi", href: "#kontak" }
   ],
@@ -79,20 +76,6 @@ export const siteConfig = {
       ],
       ctaLabel: "Jelajahi Kategori",
       ctaType: "customer"
-    },
-    {
-      id: "investor",
-      title: "Untuk Investor & Talenta",
-      badge: "Skalabilitas Ekosistem",
-      description: "Bergabung bersama kami membangun ekosistem rental terbesar dan paling terintegrasi di Indonesia.",
-      features: [
-        "Potensi pasar rental multi-kategori yang sangat masif",
-        "Arsitektur produk 3 platform yang saling mendukung secara sinergis",
-        "Eksekusi bisnis riil dengan pendekatan pendampingan di lapangan",
-        "Didukung tim teknologi profesional PT Garis Daya Digital"
-      ],
-      ctaLabel: "Diskusikan Peluang",
-      ctaType: "investor"
     }
   ],
   ecosystemPlatforms: [
@@ -114,11 +97,11 @@ export const siteConfig = {
     },
     {
       id: "customer-app",
-      name: "Aplikasi Customer",
-      type: "Mobile App (Android & iOS)",
+      name: "Marketplace",
+      type: "Mobile App & Web (Android & iOS)",
       badge: "Marketplace Terpadu",
       color: "blue",
-      tagline: "Cari, Sewa, & Beres Tanpa Ribet",
+      tagline: "Marketplace Sewa Berbasis Lokasi",
       description: "Marketplace satu pintu untuk membantu customer menemukan, membandingkan, dan menjelajahi penawaran rental terdekat sesuai kebutuhan harian maupun event.",
       capabilities: [
         "Pencarian cerdas berbasis radius lokasi terdekat (GPS)",
@@ -135,7 +118,7 @@ export const siteConfig = {
       badge: "Backoffice Terintegrasi",
       color: "indigo",
       tagline: "Monitoring & Pendampingan Terpadu",
-      description: "Mendukung pekerjaan internal PT Garis Daya Digital dalam memantau, memverifikasi, dan mengelola kegiatan kemitraan serta terintegrasi langsung dengan App Mitra & Customer.",
+      description: "Mendukung pekerjaan internal PT Garis Daya Digital dalam memantau, memverifikasi, dan mengelola kegiatan kemitraan serta terintegrasi langsung dengan App Mitra & Marketplace.",
       capabilities: [
         "Dashboard verifikasi dan kurasi mitra baru secara cepat",
         "Pemantauan status pendampingan teknis & listing unit mitra",
@@ -154,18 +137,25 @@ export const siteConfig = {
       popularItems: ["Avanza / Innova", "Motor Matic", "Hiace Pariwisata", "Pick-up Box"]
     },
     {
-      id: "properti",
-      name: "Properti",
-      icon: "Building",
-      description: "Ruang usaha, ruko harian/bulanan, kos-kosan, studio foto kreatif, dan co-working space.",
-      popularItems: ["Studio Foto", "Ruang Meeting", "Ruko Pop-up", "Villa Liburan"]
-    },
-    {
-      id: "alat-elektronik",
-      name: "Alat & Elektronik",
+      id: "elektronik",
+      name: "Elektronik",
       icon: "Camera",
       description: "Kamera mirrorless, lensa premium, drone, lighting, sound system, laptop, dan proyektor presentasi.",
       popularItems: ["Sony Alpha / Canon", "DJI Mini Drone", "Sound Portable", "Laptop Kerja"]
+    },
+    {
+      id: "lapangan-olahraga",
+      name: "Lapangan Olahraga",
+      icon: "Trophy",
+      description: "Sewa lapangan futsal, mini soccer, GOR badminton, lapangan tenis, dan lapangan basket dengan jadwal fleksibel.",
+      popularItems: ["Lapangan Mini Soccer", "Lapangan Futsal Vinyl", "GOR Badminton", "Lapangan Tenis"]
+    },
+    {
+      id: "rumah-tangga",
+      name: "Rumahtangga",
+      icon: "Home",
+      description: "Perlengkapan bayi/stroller, kasur lipat tambahan, perlengkapan masak pesta, hingga kursi roda medis.",
+      popularItems: ["Stroller Bayi", "Kursi Roda Medis", "Air Purifier", "Tenda Kemah"]
     },
     {
       id: "alat-kerja",
@@ -173,13 +163,6 @@ export const siteConfig = {
       icon: "Wrench",
       description: "Genset portable, mesin las, alat pertukangan, tangga lipat, dan mesin pembersih industri.",
       popularItems: ["Genset 3000W", "Mesin Cuci Steam", "Bor Hammer", "Tangga Teleskopik"]
-    },
-    {
-      id: "rumah-tangga",
-      name: "Rumah Tangga",
-      icon: "Home",
-      description: "Perlengkapan bayi/stroller, kasur lipat tambahan, perlengkapan masak pesta, hingga kursi roda.",
-      popularItems: ["Stroller Bayi", "Kursi Roda Medis", "Air Purifier", "Tenda Kemah"]
     },
     {
       id: "event",
@@ -204,50 +187,6 @@ export const siteConfig = {
       step: "03",
       title: "Persiapan Listing & Go-Live Marketplace",
       description: "Unit Anda siap tampil di ekosistem TemuSewa. Kami membimbing Anda cara menerima pesanan, mengelola jadwal, dan melayani pelanggan dengan percaya diri."
-    }
-  ],
-  roadmapPhases: [
-    {
-      phase: "Fase 1",
-      title: "Fondasi Ekosistem & Kemitraan Awal",
-      period: "Q4 2026",
-      status: "Tersedia / Sedang Berjalan",
-      statusType: "live",
-      description: "Fokus pada stabilisasi Aplikasi Mitra dan Web Internal untuk digitalisasi operasional pengusaha rental percontohan.",
-      milestones: [
-        "Peluncuran Aplikasi Mitra v1.0 (Manajemen stok & kalender sewa)",
-        "Peluncuran Web Internal Command Center PT Garis Daya Digital",
-        "Program pendampingan teknis langsung untuk 100+ mitra rental percontohan",
-        "Portal informasional & registrasi mitra TemuSewa.ID"
-      ]
-    },
-    {
-      phase: "Fase 2",
-      title: "Peluncuran Marketplace Customer & Transaksi",
-      period: "Q1 - Q2 2027",
-      status: "Sedang Dikembangkan",
-      statusType: "progress",
-      description: "Membuka akses Aplikasi Customer secara luas untuk menghubungkan pelanggan dengan inventaris mitra rental yang sudah terdata rapi.",
-      milestones: [
-        "Rilis Aplikasi Customer Android & iOS",
-        "Fitur pencarian berbasis geolokasi (Radius GPS real-time)",
-        "Integrasi pembayaran digital aman & deposit escrow perlindungan mitra",
-        "Sistem verifikasi identitas (e-KYC) penyewa untuk keamanan unit"
-      ]
-    },
-    {
-      phase: "Fase 3",
-      title: "Ekspansi Nasional & AI Smart-Matching",
-      period: "Q3 2027+",
-      status: "Direncanakan",
-      statusType: "planned",
-      description: "Penskalaan ekosistem ke kota-kota besar seluruh Indonesia dengan fitur analitik cerdas berbasis kecerdasan buatan.",
-      milestones: [
-        "Ekspansi jaringan mitra rental ke 30+ kota di Indonesia",
-        "Fitur AI Smart-Pricing & prediksi lonjakan permintaan sewa (peak season)",
-        "Integrasi asuransi proteksi aset rental instan",
-        "Program loyalitas pelanggan dan reward mitra berprestasi"
-      ]
     }
   ]
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Store, ShoppingBag, Briefcase, CheckCircle, ArrowRight, MessageCircle, Sparkles } from 'lucide-react';
+import { Store, ShoppingBag, CheckCircle, ArrowRight, Sparkles } from 'lucide-react';
 import Button from '../common/Button';
 import Badge from '../common/Badge';
 import { siteConfig } from '../../config/siteConfig';
@@ -13,8 +13,7 @@ export default function AudiencePillarsSection({ onOpenScheduleModal }) {
 
   const icons = {
     mitra: Store,
-    pelanggan: ShoppingBag,
-    investor: Briefcase
+    pelanggan: ShoppingBag
   };
 
   return (
@@ -31,12 +30,12 @@ export default function AudiencePillarsSection({ onOpenScheduleModal }) {
             Memberdayakan Setiap Pemangku Kepentingan
           </h2>
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed">
-            TemuSewa.ID dirancang bukan hanya sebagai aplikasi sewa, melainkan jembatan sinergi yang memberikan nilai tambah nyata bagi pemilik rental, pelanggan, dan investor.
+            TemuSewa.ID dirancang bukan hanya sebagai aplikasi sewa, melainkan jembatan sinergi yang memberikan nilai tambah nyata bagi pemilik rental (mitra bisnis) dan pelanggan persewaan.
           </p>
         </div>
 
-        {/* 3 Pillars Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+        {/* 2 Pillars Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch max-w-5xl mx-auto">
           {siteConfig.audiencePillars.map((pillar) => {
             const Icon = icons[pillar.id] || Store;
             const isMitra = pillar.id === 'mitra';

@@ -14,7 +14,7 @@ export default function Navbar({ onOpenScheduleModal }) {
       setIsScrolled(window.scrollY > 15);
 
       // Simple active section detection
-      const sections = ['solusi', 'ekosistem', 'audiens', 'kategori', 'pendampingan', 'roadmap', 'perusahaan'];
+      const sections = ['solusi', 'ekosistem', 'audiens', 'kategori', 'pendampingan', 'perusahaan'];
       for (const sectionId of sections) {
         const el = document.getElementById(sectionId);
         if (el) {

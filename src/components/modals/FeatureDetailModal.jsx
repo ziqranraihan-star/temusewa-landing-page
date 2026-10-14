@@ -89,7 +89,7 @@ export default function FeatureDetailModal({ selectedPlatformId, isOpen, onClose
         {
           title: "2. Integrasi Data Real-Time Multi-Platform",
           items: [
-            "Sinkronisasi data terpusat antara App Mitra dan App Customer",
+            "Sinkronisasi data terpusat antara App Mitra dan Marketplace",
             "Monitoring stabilitas server, performa API, dan kepatuhan transaksi",
             "Pelacakan anomali transaksi atau laporan sengketa pengguna"
           ]
@@ -98,8 +98,8 @@ export default function FeatureDetailModal({ selectedPlatformId, isOpen, onClose
           title: "3. Analitika Bisnis & Perencanaan Fitur",
           items: [
             "Analisis data kategori rental dengan permintaan tertinggi di tiap daerah",
-            "Dasar penentuan fitur-fitur baru pada roadmap rilis teknologi TemuSewa",
-            "Laporan pertumbuhan ekosistem untuk kebutuhan evaluasi investor"
+            "Dasar penentuan fitur-fitur baru pada rilis teknologi TemuSewa",
+            "Laporan pertumbuhan ekosistem dan metrik operasional secara berkala"
           ]
         }
       ]

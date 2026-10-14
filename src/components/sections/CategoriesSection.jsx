@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   Car, 
-  Building, 
+  Trophy, 
   Camera, 
   Wrench, 
   Home, 
@@ -19,9 +19,14 @@ export default function CategoriesSection({ onOpenScheduleModal }) {
 
   const categoryIcons = {
     kendaraan: Car,
-    properti: Building,
-    'alat-elektronik': Camera,
+    elektronik: Camera,
+    'lapangan-olahraga': Trophy,
+    rumahtangga: Home,
     'alat-kerja': Wrench,
+    'event-lainnya': PartyPopper,
+    // backward-compatible keys
+    properti: Trophy,
+    'alat-elektronik': Camera,
     'rumah-tangga': Home,
     event: PartyPopper
   };
@@ -48,7 +53,7 @@ export default function CategoriesSection({ onOpenScheduleModal }) {
             Kategori Rental yang Didukung
           </h2>
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed">
-            Dari kendaraan harian, properti usaha, hingga peralatan kerja spesifik. TemuSewa.ID menaungi seluruh kebutuhan sewa masyarakat dan industri dalam satu pintu.
+            Dari kendaraan harian, peralatan elektronik, lapangan olahraga, rumahtangga, hingga alat teknik dan event. TemuSewa.ID menaungi seluruh kebutuhan sewa dalam satu pintu.
           </p>
         </div>
 

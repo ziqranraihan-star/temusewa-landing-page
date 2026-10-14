@@ -4,12 +4,11 @@ import Button from '../common/Button';
 import { siteConfig } from '../../config/siteConfig';
 
 export default function ContactCTASection({ onOpenScheduleModal }) {
-  const [selectedPersona, setSelectedPersona] = useState('mitra'); // 'mitra' | 'investor' | 'customer' | 'demo'
+  const [selectedPersona, setSelectedPersona] = useState('mitra'); // 'mitra' | 'customer' | 'demo'
   const [customNotes, setCustomNotes] = useState('');
 
   const personas = [
     { id: 'mitra', label: 'Calon Mitra Rental', subtitle: 'Ingin bergabung & didampingi aplikasi' },
-    { id: 'investor', label: 'Calon Investor', subtitle: 'Tertarik peluang bisnis ekosistem' },
     { id: 'customer', label: 'Pelanggan Sewa', subtitle: 'Ingin tanya ketersediaan barang' },
     { id: 'demo', label: 'Ajukan Jadwal Demo', subtitle: 'Ingin melihat langsung demo sistem' }
   ];

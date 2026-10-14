@@ -52,9 +52,9 @@ export default function HeroSection({ onOpenScheduleModal }) {
 
   const quickSearchTags = [
     { label: "Sewa Avanza / Innova", category: "Kendaraan" },
-    { label: "Sony Alpha 7 IV", category: "Alat & Elektronik" },
-    { label: "Genset Silent 5kVA", category: "Alat Kerja" },
-    { label: "Studio Foto / Ruko", category: "Properti" }
+    { label: "Sony Alpha 7 IV", category: "Elektronik" },
+    { label: "Genset Silent 5kVA", category: "Alat Kerja & Teknik" },
+    { label: "Lapangan Futsal / Mini Soccer", category: "Lapangan Olahraga" }
   ];
 
   const sampleResults = [
@@ -356,7 +356,7 @@ export default function HeroSection({ onOpenScheduleModal }) {
               }`}
             >
               <Smartphone className="w-4 h-4 text-[#18A766]" />
-              <span>App Customer</span>
+              <span>Marketplace</span>
             </button>
             <button
               onClick={() => setActiveTab('mitra')}
@@ -392,7 +392,7 @@ export default function HeroSection({ onOpenScheduleModal }) {
                 <span className="w-3 h-3 rounded-full bg-yellow-500/80" />
                 <span className="w-3 h-3 rounded-full bg-green-500/80" />
                 <span className="ml-2 font-mono text-[11px] text-slate-300">
-                  {activeTab === 'customer' && 'temusewa-customer-v1.app'}
+                  {activeTab === 'customer' && 'marketplace.temusewa.id'}
                   {activeTab === 'mitra' && 'mitra.temusewa.id / operational-tablet'}
                   {activeTab === 'internal' && 'admin-command.garisdaya.digital'}
                 </span>
@@ -480,13 +480,13 @@ export default function HeroSection({ onOpenScheduleModal }) {
                   {/* Right Description */}
                   <div className="md:col-span-7 space-y-4">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-bold">
-                      Aplikasi Pelanggan (Marketplace)
+                      Marketplace TemuSewa
                     </div>
                     <h3 className="text-2xl font-bold text-[#0D2C54]">
-                      Kemudahan Menemukan Kebutuhan Sewa Tanpa Perantara Gelap
+                      Kemudahan Menemukan Kebutuhan Sewa & Lapangan Olahraga
                     </h3>
                     <p className="text-slate-600 text-sm leading-relaxed">
-                      Customer dapat mencari rental terdekat secara transparan, melihat foto unit asli, memverifikasi ketersediaan jadwal, serta menyewa dengan aman.
+                      Customer dapat mencari rental kendaraan, alat, barang, dan sewa lapangan olahraga terdekat secara transparan, melihat foto unit asli, memverifikasi ketersediaan jadwal, serta menyewa dengan aman.
                     </p>
                     <ul className="space-y-2 text-xs text-slate-700">
                       <li className="flex items-center gap-2">

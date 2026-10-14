@@ -7,7 +7,6 @@ import AudiencePillarsSection from './components/sections/AudiencePillarsSection
 import EcosystemShowcaseSection from './components/sections/EcosystemShowcaseSection';
 import CategoriesSection from './components/sections/CategoriesSection';
 import MentoringServiceSection from './components/sections/MentoringServiceSection';
-import LinearRoadmapSection from './components/sections/LinearRoadmapSection';
 import CompanyProfileSection from './components/sections/CompanyProfileSection';
 import ContactCTASection from './components/sections/ContactCTASection';
 import ScheduleMeetingModal from './components/modals/ScheduleMeetingModal';
@@ -50,7 +49,7 @@ export default function App() {
           onOpenScheduleModal={() => setScheduleModalOpen(true)} 
         />
 
-        {/* 3. 3 Pilar Nilai Audiens (Mitra, Pelanggan, Investor) */}
+        {/* 3. 2 Pilar Nilai Audiens (Mitra & Pelanggan) */}
         <AudiencePillarsSection 
           onOpenScheduleModal={() => setScheduleModalOpen(true)} 
         />
@@ -71,12 +70,7 @@ export default function App() {
           onOpenScheduleModal={() => setScheduleModalOpen(true)} 
         />
 
-        {/* 7. Timeline Rilis Linier Vertikal */}
-        <LinearRoadmapSection 
-          onOpenScheduleModal={() => setScheduleModalOpen(true)} 
-        />
-
-        {/* 8. Profil PT Garis Daya Digital */}
+        {/* 7. Profil PT Garis Daya Digital */}
         <CompanyProfileSection 
           onOpenScheduleModal={() => setScheduleModalOpen(true)} 
         />

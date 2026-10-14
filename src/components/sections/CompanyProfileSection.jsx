@@ -79,20 +79,20 @@ export default function CompanyProfileSection({ onOpenScheduleModal }) {
               </div>
             </div>
 
-            {/* Right Card: Investor & Partnership Quote */}
+            {/* Right Card: Kemitraan & Kolaborasi */}
             <div className="lg:col-span-5 bg-white/10 backdrop-blur-md rounded-2xl p-6 sm:p-7 border border-white/15 space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-xl bg-[#18A766] flex items-center justify-center text-white font-bold">
                   <Sparkles className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-xs text-slate-300 font-medium">Kemitraan Strategis & Investor</div>
+                  <div className="text-xs text-slate-300 font-medium">Kemitraan Strategis & Kolaborasi</div>
                   <div className="text-sm font-bold text-white">Terbuka Untuk Kolaborasi</div>
                 </div>
               </div>
 
               <p className="text-xs text-slate-200 leading-relaxed italic">
-                "Kami menyambut mitra rental visioner, calon talenta teknologi terbaik, dan investor yang memiliki kesamaan pandangan dalam merevolusi ekosistem rental nusantara."
+                "Kami menyambut para pemilik usaha rental visioner dan mitra strategis yang memiliki kesamaan pandangan dalam merevolusi ekosistem persewaan modern di Indonesia."
               </p>
 
               <div className="pt-2">

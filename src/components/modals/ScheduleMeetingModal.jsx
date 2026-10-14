@@ -147,13 +147,13 @@ Mohon konfirmasi jadwal demo dari Tim TemuSewa.ID. Terima kasih.`;
                   onChange={handleChange}
                   className="w-full text-xs pl-9 pr-3 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:border-[#18A766] focus:ring-1 focus:ring-[#18A766] bg-white"
                 >
-                  <option value="Kendaraan">Kendaraan (Mobil/Motor)</option>
-                  <option value="Properti">Properti / Ruang Usaha</option>
-                  <option value="Alat & Elektronik">Alat & Elektronik (Kamera/Laptop)</option>
-                  <option value="Alat Kerja & Teknik">Alat Kerja & Teknik (Genset/Las)</option>
-                  <option value="Rumah Tangga">Rumah Tangga / Medis</option>
-                  <option value="Event & Lainnya">Event, Panggung & Kostum</option>
-                  <option value="Lainnya">Kategori Lainnya / Calon Investor</option>
+                  <option value="Kendaraan">Kendaraan (Mobil, Motor, Sepeda Listrik)</option>
+                  <option value="Elektronik">Elektronik (Kamera, Drone, Laptop, TV)</option>
+                  <option value="Lapangan Olahraga">Lapangan Olahraga (Futsal, Badminton, Mini Soccer)</option>
+                  <option value="Rumahtangga">Rumahtangga (Tenda, Kursi, Alat Pesta)</option>
+                  <option value="Alat Kerja & Teknik">Alat Kerja & Teknik (Genset, Bor, Molen, Scaffolding)</option>
+                  <option value="Event & Lainnya">Event & Lainnya (Sound System, Kostum, Booth)</option>
+                  <option value="Lainnya">Kategori Lainnya</option>
                 </select>
               </div>
             </div>

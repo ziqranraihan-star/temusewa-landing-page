@@ -33,7 +33,7 @@ export default function ProblemSolutionSection({ onOpenScheduleModal }) {
     },
     {
       title: "Terhubung Langsung ke Marketplace",
-      desc: "Unit rental Anda otomatis tayang di Aplikasi Customer TemuSewa, siap ditemukan oleh ribuan calon penyewa terdekat tiap hari."
+      desc: "Unit rental Anda otomatis tayang di Marketplace TemuSewa, siap ditemukan oleh ribuan calon penyewa terdekat tiap hari."
     },
     {
       title: "Pendampingan Implementasi Nyata",

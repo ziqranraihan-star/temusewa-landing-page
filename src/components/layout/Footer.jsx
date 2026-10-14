@@ -49,7 +49,7 @@ export default function Footer({ onOpenScheduleModal }) {
               </li>
               <li>
                 <a href="#ekosistem" className="hover:text-[#18A766] transition-colors flex items-center gap-1.5">
-                  Aplikasi Customer
+                  Marketplace
                   <span className="text-[10px] px-1.5 py-0.5 rounded bg-blue-500/20 text-blue-300">Dev</span>
                 </a>
               </li>
@@ -64,11 +64,6 @@ export default function Footer({ onOpenScheduleModal }) {
                   Layanan Pendampingan
                 </a>
               </li>
-              <li>
-                <a href="#roadmap" className="hover:text-[#18A766] transition-colors">
-                  Roadmap Rilis
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -78,12 +73,12 @@ export default function Footer({ onOpenScheduleModal }) {
               Kategori Sewa
             </h4>
             <ul className="space-y-2.5 text-sm text-slate-300">
-              <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Rental Kendaraan</a></li>
-              <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Sewa Properti & Usaha</a></li>
-              <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Alat & Elektronik / Kamera</a></li>
+              <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Kendaraan</a></li>
+              <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Elektronik</a></li>
+              <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Lapangan Olahraga</a></li>
+              <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Rumahtangga</a></li>
               <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Alat Kerja & Teknik</a></li>
-              <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Perlengkapan Rumah Tangga</a></li>
-              <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Event, Panggung & Kostum</a></li>
+              <li><a href="#kategori" className="hover:text-[#18A766] transition-colors">Event & Lainnya</a></li>
             </ul>
           </div>
 
@@ -128,7 +123,6 @@ export default function Footer({ onOpenScheduleModal }) {
           <div className="flex items-center gap-6">
             <span className="hover:text-slate-200 cursor-pointer">Kebijakan Privasi</span>
             <span className="hover:text-slate-200 cursor-pointer">Syarat & Ketentuan Kemitraan</span>
-            <span className="hover:text-slate-200 cursor-pointer">Hubungan Investor</span>
           </div>
         </div>
       </div>
