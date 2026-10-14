@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Outer location pin silhouette -->
+  <path d="M50 8C31.2 8 16 23.2 16 42C16 63.5 45.5 89.2 46.8 90.3C48.6 91.9 51.4 91.9 53.2 90.3C54.5 89.2 84 63.5 84 42C84 23.2 68.8 8 50 8Z" fill="#18A766" />
+  <!-- Two Head Dots -->
+  <circle cx="38" cy="30" r="6" fill="#FFFFFF" />
+  <circle cx="62" cy="30" r="6" fill="#0D2C54" />
+  <!-- Handshake Right Body (Navy) -->
+  <path d="M52 42L66 42C72 42 75 48 71 53L57 65C54 68 49 67 46 64L41 59L52 48L52 42Z" fill="#0D2C54" />
+  <!-- Handshake Left Hand (White / Green accent) -->
+  <path d="M33 50L44 61C47 64 52 63 55 60L60 55L49 44L36 44C32 44 30 47 33 50Z" fill="#FFFFFF" />
+  <!-- Fingers Detail -->
+  <rect x="28" y="58" width="5" height="10" rx="2.5" transform="rotate(-40 28 58)" fill="#FFFFFF" />
+  <rect x="33" y="63" width="5" height="10" rx="2.5" transform="rotate(-40 33 63)" fill="#FFFFFF" />
+  <rect x="38" y="68" width="5" height="10" rx="2.5" transform="rotate(-40 38 68)" fill="#FFFFFF" />
+</svg>
